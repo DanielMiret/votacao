@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.showing .card {
+    cursor: pointer;
+    opacity: 0.6;
+    transform: scale(0.88);
+}
+
+.cards.showing .card:hover {
+    opacity: 0.94;
+    transform: scale(0.92);
+}
